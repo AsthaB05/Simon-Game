@@ -1,34 +1,49 @@
 body{
     text-align: center;
+    background-color: #121212;   
+    color: white;
+    transition: background-color 0.2s;
+    font-family: 'Poppins', sans-serif;
 }
+
 .btn{
     height: 150px;
     width: 150px;
     border-radius: 20%;
-    border: 10px solid black;
+    border: 8px solid #000;
     margin: 2.5rem;
+    transition: all 0.2s ease;
 }
+
 .btn-container{
     display: flex;
     justify-content: center;
-    
 }
-.yellow{
-    background-color: #f99b45;
 
+
+.yellow{
+    background-color: #f9d423;
 }
+
 .red{
-    background-color: #d95980;
+    background-color: #ff4b5c;
 }
+
 .purple{
-    background-color: #819ff9;
+    background-color: #8e7dff;
 }
+
 .green{
-    background-color: #108f21;
+    background-color: #28c76f;
 }
+
+
 .flash{
-    background-color: white;
+    background-color: white !important;
+    box-shadow: 0 0 25px white;
 }
+
 .userflash{
-    background-color: black;
+    background-color: black !important;
+    box-shadow: 0 0 20px black;
 }
